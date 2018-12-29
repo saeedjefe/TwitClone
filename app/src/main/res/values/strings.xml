@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Twitter</string>
+    <string name="title_activity_users_tab">UsersTab</string>
+    <string name="Logout">Logout</string>
+    <string name="SigUp">SignUp</string>
+    <string name="LogIn">LogIn</string>
+    <string name="Twitter">Twitter</string>
+    <string name="TweetItem">TweetItem</string>
+
+
+</resources>

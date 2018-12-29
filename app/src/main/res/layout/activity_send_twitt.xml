@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendTwitt"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtTweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:ems="10"
+        android:hint="Enter Your Tweet"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnTweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginBottom="10dp"
+        android:text="send Tweet"
+        app:layout_constraintTop_toBottomOf="@+id/edtTweet" />
+
+    <Button
+        android:id="@+id/btnShowTweets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
+        android:id="@+id/viewTweetsListView"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+         />
+
+
+</LinearLayout>
